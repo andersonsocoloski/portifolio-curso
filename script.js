@@ -6,8 +6,8 @@ if (texto.textContent == null){
     texto.textContent = "Seja Bem Vindo(a)!";
 }
 else {
-    texto.textcontent = nome;
+    texto.textContent = nome;
 }
-
+texto.textContent = nome
 
 
