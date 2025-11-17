@@ -2,7 +2,7 @@ let texto = document.querySelector("#texto");
 texto.textContent = "Anderson";
 
 let nome = prompt("Qual o seu nome?");
-if (texto.textContent == null){
+if (nome == null){
     texto.textContent = "Seja Bem Vindo(a)!";
 }
 else {
